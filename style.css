@@ -1,0 +1,93 @@
+:root {
+    --main-padding: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo-title {
+    font-family: 'Monoton', cursive;
+    font-size: 56px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#caption {
+    display: flex;
+    position: relative;
+    color: white;
+    justify-content: center;
+    top: 1%;
+    margin: 0;
+    font-weight: light;
+}
+
+#caption > a {
+    text-decoration: underline;
+    color: white;
+    padding: 0px 3px;
+}
+
+#logo {
+    display: flex;
+    position: relative;
+    top: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo,
+img {
+    filter: brightness(0) invert(1) drop-shadow(6px 2px 5px);
+    height: 100px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: auto;
+    margin: 10vh 0;
+}
+
+#sidebar {
+    width: 35%;
+    height: 100%;
+    background-image: url("/images/side-image.jpg");
+    background-position: center;
+    background-size: 200%;
+    opacity: 0.9;
+}
+
+main {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+
+    display: flex;
+    flex: 1;
+}
+
+#main-content {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    padding: 5% 0;
+    resize: both;
+    align-items: center;
+    justify-content: center;
+}
+
+#summary,
+#main-form,
+#submission {
+    height: auto;
+    padding: var(--main-padding);
+}
+
+#main-form {
+    background-color: white;
+    box-shadow: 0px 8px 4px -8px;
+}
+
