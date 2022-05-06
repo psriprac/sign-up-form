@@ -119,16 +119,28 @@ input:focus {
 }
 
 button {
-    border: none;
+    border: 2px solid crimson;
     background-color: crimson;
     color: white;
     padding: 12px;
     width: 200px;
     border-radius: 5px;
     font-size: large;
+    transition-property: background-color box-shadow;
+    transition-duration: 0.5s;
 }
 
-#submission > h2 > a {
+button:active {
+    border: 2px solid crimson;
+    background-color: white;
+    color: crimson;
+}
+
+button:hover {
+    box-shadow: 4px 4px 8px gray;
+}
+
+#submission > h3 > a {
     text-decoration: underline;
     color: crimson;
     padding: 0px 3px;
