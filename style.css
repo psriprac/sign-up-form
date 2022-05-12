@@ -55,7 +55,7 @@ img {
 #sidebar {
     width: 35%;
     height: 100%;
-    background-image: url("/images/side-image.jpg");
+    background-image: url("images/side-image.jpg");
     background-position: center;
     background-size: 200%;
     opacity: 0.9;
